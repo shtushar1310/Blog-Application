@@ -41,6 +41,8 @@ export const login=async(req,res)=>{
     }
 }
 
+export const Refresh = async (req, res) => {}
+
 export const Logout=async(req,res)=>{
     try {
         res.status(200).json({message:"logout successfully"})   
