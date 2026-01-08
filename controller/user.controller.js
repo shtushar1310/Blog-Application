@@ -50,14 +50,9 @@ export const login=async(req,res)=>{
     }
 }
 
-export const Logout=async(req,res)=>{
-    try {
-        res.status(200).json({message:"logout successfully"})   
-    } catch (error) {
-        console.log(error);
-    res.status(500).json({ error: error });
-    }
-} 
+export const Refresh = async (req, res) => {}
+
+ 
    
 export const logout = (req, res) => {
   // Optional: You can log this event to the console or database
